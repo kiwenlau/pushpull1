@@ -18,5 +18,5 @@ for imagename in ${imagelist[*]};
 do
 	echo -e "\n./run.sh kai 52.68.197.112 $imagename"
 		file="output/$imagename.txt"
-	./run.sh kai 52.68.197.112 $imagename 2>&1 | tee $file
+	./run.sh kai 54.225.249.141 $imagename 2>&1 | tee $file
 done
